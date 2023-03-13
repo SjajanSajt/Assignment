@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> assignment </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--  css for desktop layout -->
+
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!--  css for responsive layout -->
+
+<link rel="stylesheet" href="https://kit.fontawesome.com/9b4815edee.css" crossorigin="anonymous">
+<!-- link for  font awesome latest version  -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+<!-- google fonts linkovi  -->
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+<!-- animacije za scroll on  -->
+</head>
+<style>
+
+</style>
+
+<body>
+
+
+
+<!--header in which we hold navigation topbar in this case -->
+<header>
+
+<div class="topnav" id="myTopnav">
+
+  <span class="za-logo"> <!-- flex container to make LOGO easier to position -->
+ <h1> LOGO </h1>
+  </span>
+  <a href="index.html" class="active">Products</a>
+  <a href="#about">Services</a>
+  <a href="#usluge">About Us</a>
+  <a href="#usluge">Services</a>
+ 
+ 
+  
+  <a href="javascript:void(0);" class="icon"  onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+	 <img src="./images/menu-image.png" alt="bicycle-illustration" class="bicycle" style="width:370px;opacity:0.6;">  <!-- image of a bicycle that appears on responsive menu
+after click on hamburger icon	 -->
+  </a>
+ <form>
+  <input type="search" placeholder="Search...">
+  <button type="submit" >Search</button>
+</form>
+<span class="font-awesome" id="awesome-icons">
+     <i class="fa-regular fa-user"></i>
+	 <i class="fa-regular fa-heart"></i>
+  <i class="fa fa-shopping-cart" id="lilttlegreenspot"></i>
+</span>
+</div>
+</header>
+
+
+<!-- flexa -->
+<section class="products">
+   <span class="lista">
+            <a href="#">Home      </a>    
+            <a href="#"> Products </a>
+            <a href="#"> Bikes </a>
+	      </span>
+<div class="right-icons">		  
+<h1>   Product name lorem ipsum     </h1>
+<div class="lista1">
+         <i class=" fa fa-arrow-left"></i>
+          <i class=" fa fa-arrow-right"></i> 
+	<i class="fa-regular fa-heart"></i> 
+	 	  <i class="fa fa-share-nodes"></i>  
+	     
+</div>
+</div>
+ </section>
+<section class="products-in-stock">
+ <div class="carousel-cycle"> 
+    <div class="slideshow-container">
+  <div class="mySlides1 fade">
+    <img src="images/bicikli.png" >
+  </div>
+
+  <div class="mySlides1 fade">
+    <img src="images/bicikli1.png" >
+  </div>
+
+  <div class="mySlides1 fade">
+    <img src="images/bicikli2.png" >
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+ 
+ </div>
+ <div class="stock-cycle"> 
+<h5>In stock	<span class="orange"> - only 2 left </span>   </h5>
+ 
+<p>       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                     </p>
+
+<div class="select-forms">
+
+<div class="formice">
+ <label for="bicycles" class="roof" style="font-size:12px;">Model</label>
+
+<select name="pets" id="bicycles" style="background:white;margin-top:0px;">
+    <option value="Gents-Medium">Gents-Medium</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+
+
+</div>
+<div class="formice">
+ <label for="bicycles" class="roof" style="font-size:12px;">Model</label>
+
+<select name="pets" id="bicycles" style="background:white;margin-top:0px;">
+    <option value="Gents-Medium">Gents-Medium</option>
+    <option value="gents">Gents-Medium</option>
+    <option value="gents">Gents-Medium</option>
+    <option value="gents">Gents-Medium</option>
+    <option value="gents">Gents-Medium</option>
+    <option value="gents">Gents-Medium</option>
+    <option value="gents">Gents-Medium</option>
+</select>
+
+
+</div>
+ </div>
+       <div class="check-point">
+	   <label class="check-box">add option lorem ipsum
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="check-box">add option lorem ipsum
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+	   
+	   </div>
+<div class="green-buttons">
+<button class="button1">Add to cart </button>
+<button id="myBtn" class="button2">Contact Us</button>
+ </div>
+ </section>
+
+<section class="click-tabs margina">
+<span class="tab-headings-container">  <!-- to make headings easier to move -->
+	<h5> Description </h5>
+	<h5>  Specifications           </h5>
+	<h5>   Reviews  (7)        </h5>
+</span>
+     
+</section>
+<span class="horizontal-line"> </span>  <!-- horizontal-line devides clicktabs from content -->
+
+
+<section class="product-description">
+  <div> 
+        <h2 id="h2">  Product description        </h2>
+        <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  
+		</p>
+		   <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  
+Lorem ipsum dolor sit ullamco laboris  
+		</p>
+		<button class="product-button" id="btn"> More info </button>
+  </div>
+ <div>
+ <img src="images/riding.jfif" class="responsive-image"  >
+ </div>
+
+</section>
+
+<section class="table" id="margina1" >
+<h2>   Technical specifications   </h2>
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Frame size</th>
+    <th>Weight</th>
+    <th>Max speed</th>
+    <th>Battery</th>
+    <th>Engine</th>
+  </tr>
+  <tr>
+    <td>Ladies - small</td>
+    <td>50cm</td>
+    <td>24kg</td>
+   <td>45 km/h</td>
+    <td>625Wh</td>
+    <td>Bosch Performanse Line Speed</td>
+  </tr>
+  <tr>
+    <td>Ladies - medium </td>
+    <td>55cm</td>
+    <td>24kg</td>
+   <td>45 km/h</td>
+    <td>625Wh</td>
+    <td>Bosch Performanse Line Speed</td>
+  </tr>
+  <tr>
+   <td>Ladies - large </td>
+    <td>55cm</td>
+    <td>24kg</td>
+   <td>45 km/h</td>
+    <td>625Wh</td>
+    <td>Bosch Performanse Line Speed</td>
+  </tr>
+   <tr>
+    <td>Ladies - small</td>
+    <td>50cm</td>
+    <td>24kg</td>
+   <td>45 km/h</td>
+    <td>625Wh</td>
+    <td>Bosch Performanse Line Speed</td>
+  </tr>
+  <tr>
+    <td>Ladies - medium </td>
+    <td>55cm</td>
+    <td>24kg</td>
+   <td>45 km/h</td>
+    <td>625Wh</td>
+    <td>Bosch Performanse Line Speed</td>
+  </tr>
+  <tr>
+   <td>Ladies - large </td>
+    <td>55cm</td>
+    <td>24kg</td>
+   <td>45 km/h</td>
+    <td>625Wh</td>
+    <td>Bosch Performanse Line Speed</td>
+  </tr>
+</table>
+
+</section>
+
+
+
+
+
+
+  <!-- Modal content -->
+  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2> Contact Us </h2>
+<p> We'll get back at you soon as possible. </p>
+    
+
+   
+
+
+
+     <input class="input" type="email" id="email" placeholder="Your e-mail" name="email"> </input>
+    <textarea id="subject" name="subject" placeholder="Write something.." class></textarea>
+<div class="flex-modal">
+  <p class="cancel"> Cancel   <div type="submit" value="Send message"> Send message </div>
+</p>
+  
+  </div>
+</div>
+</div>
+
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+<!-- javascript script for responsive topbar -->  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/9b4815edee.js" crossorigin="anonymous"></script> <!-- font awesome script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ 
+ <script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+ 
+</body>
+
+</html>
